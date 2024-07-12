@@ -1,0 +1,62 @@
+.root {
+    -fx-background-color: #f2f2f2; /* Kolor tła */
+}
+
+.label {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Kolor tekstu */
+}
+
+.text-field {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #999999; /* Kolor podpowiedzi */
+}
+
+.button {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff; /* Kolor tekstu */
+    -fx-background-color:
+            linear-gradient(#007db9, #005f91), /* Górne gradientowe tło */
+            linear-gradient(#0065a3, #00487d); /* Dolne gradientowe tło */
+    -fx-background-radius: 30px; /* Zaokrąglenie krawędzi */
+    -fx-background-insets: 0, 1;
+    -fx-padding: 10px 20px; /* Rozmiar wewnętrznego marginesu */
+    -fx-border-color: #003f5c; /* Kolor obramowania */
+    -fx-border-width: 2px; /* Grubość obramowania */
+    -fx-border-radius: 30px; /* Zaokrąglenie krawędzi */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0); /* Efekt cienia */
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+.button:hover {
+    -fx-background-color:
+            linear-gradient(#005f91, #007db9), /* Górne gradientowe tło */
+            linear-gradient(#00487d, #0065a3); /* Dolne gradientowe tło */
+    -fx-translate-y: -2px; /* Przesunięcie w górę */
+}
+
+.button:pressed {
+    -fx-background-color:
+            linear-gradient(#00487d, #0065a3), /* Górne gradientowe tło */
+            linear-gradient(#003f5c, #005f91); /* Dolne gradientowe tło */
+    -fx-translate-y: 1px; /* Przesunięcie w dół */
+}
+
+.list-view {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.combo-box {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.alert {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}

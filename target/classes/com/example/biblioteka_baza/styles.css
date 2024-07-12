@@ -1,0 +1,55 @@
+.root {
+    -fx-background-color: #f2f2f2; /* Kolor tła */
+}
+
+.label {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Kolor tekstu */
+}
+
+.text-field {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #999999; /* Kolor podpowiedzi */
+    -fx-background-color: white; /* Białe tło */
+    -fx-background-radius: 5px; /* Zaokrąglenie krawędzi */
+    -fx-border-color: #bfbfbf; /* Kolor obramowania */
+    -fx-border-width: 1px; /* Grubość obramowania */
+}
+
+.button {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff; /* Kolor tekstu */
+    -fx-background-color: #9933ff; /* Fioletowy kolor tła */
+    -fx-background-radius: 30px; /* Zaokrąglenie krawędzi */
+    -fx-padding: 10px 20px; /* Rozmiar wewnętrznego marginesu */
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: #7a22b0; /* Ciemniejszy odcień fioletowego */
+    -fx-translate-y: -2px; /* Przesunięcie w górę */
+}
+
+.button:pressed {
+    -fx-background-color: #4d1477; /* Jeszcze ciemniejszy odcień fioletowego */
+    -fx-translate-y: 1px; /* Przesunięcie w dół */
+}
+
+.list-view {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.combo-box {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.alert {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
